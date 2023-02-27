@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+}
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+span {
+  font-family: Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0 calc(40% - 350px);
+}
+.container2 {
+  background-color: #efefef;
+}
+h2.post {
+  font-family: Sen, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+.color_gray {
+  background-color: #efefef;
+}
+.mbb {
+  margin-left: 30px;
+}
+.marg {
+  margin-left: 30px;
+}

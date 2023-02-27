@@ -1,0 +1,49 @@
+.main__first {
+  height: 584px;
+  max-width: 100%;
+  position: relative;
+  background: url("../images/armchair.jpg") 50% no-repeat;
+  background-color: #66c05d;
+}
+
+.main__first_nav {
+  position: absolute;
+  top: 190px;
+  color: #ffffff;
+}
+
+.main__first_h2 {
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.main__first_p {
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.main__first_btn {
+  width: 170px;
+  height: 40px;
+  background-color: #66c05d;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 5%;
+  text-align: center;
+}
+
+.main__first_btn:active {
+  background-color: #83d47c;
+  transform: translate(1px, 1px);
+}
+@media (max-width: 768px) {
+  .main__first {
+    background: url("../images/armchair.jpg") 60%;
+  }
+}
